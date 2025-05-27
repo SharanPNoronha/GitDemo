@@ -8,7 +8,7 @@ import pytest
 
 
 def test_firstProgram(setup):
-    print("Hello Guten Morgen!")
+    print("Hello")
 
 @pytest.mark.xfail   #this will run this testcase, but wont report it
 def test_SecondGreetCreditCard():
