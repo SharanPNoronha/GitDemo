@@ -14,6 +14,9 @@ def test_firstProgram(setup):
 def test_SecondGreetCreditCard():
     print("Sonnen sheint")
     print('tschuss!!!!!!!!!')
+    print('tschuss!!!!!!!!!')
+    print('tschuss!!!!!!!!!')
+    print('tschuss!!!!!!!!!')
 
 def test_crossBrowser(crossBrowser):
     print(crossBrowser[1]) # this will run 3 times ( 1 with chrome, 1 with firefox, and then IE)

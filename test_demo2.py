@@ -4,6 +4,7 @@ import pytest
 @pytest.mark.skip
 def test_firstProgram():
     msg="Hello"
+    print('tschuss!!!!!!!!!')
     assert msg=="Hi", "Testcase Failed: User Input is not equal to Hi"
 
 @pytest.mark.smoke
