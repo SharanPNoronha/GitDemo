@@ -8,11 +8,13 @@ import pytest
 
 
 def test_firstProgram(setup):
-    print("Hello")
+    print("Hello Guten Morgen!")
 
 @pytest.mark.xfail   #this will run this testcase, but wont report it
 def test_SecondGreetCreditCard():
-    print("Good Morning")
+    print("Sonnen sheint")
+    print('tschuss!!!!!!!!!')
 
 def test_crossBrowser(crossBrowser):
     print(crossBrowser[1]) # this will run 3 times ( 1 with chrome, 1 with firefox, and then IE)
+
